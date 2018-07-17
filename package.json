@@ -1,6 +1,6 @@
 {
   "name": "whois-2",
-  "version": "0.3.2",
+  "version": "0.0.1",
   "description": "a whois client for node.js",
   "author": {
     "name": "Andreas Diem",
@@ -20,7 +20,7 @@
     "url": "git@github.com:unshfit/whois-2.git"
   },
   "dependencies": {
-    "detect-character-encoding": "0.6.0",
+    "chardet": "^0.6.0",
     "iconv-lite": "^0.4.23",
     "ip-address": "5.8.9",
     "punycode": "2.1.1",
