@@ -6,7 +6,7 @@
 
 _Wer ist are the German words for who is_
 
-[![Build Status](https://travis-ci.org/w4andy/node-werist.svg?branch=master)](https://travis-ci.org/w4andy/node-werist)
+[![Build Status](https://travis-ci.org/w4andy/node-werist.svg?branch=master)](https://travis-ci.org/w4andy/node-werist) [![Greenkeeper badge](https://badges.greenkeeper.io/unshift/whois-2.svg)](https://greenkeeper.io/)
 
 ## Table of Contents
 
