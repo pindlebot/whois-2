@@ -1,6 +1,6 @@
 {
   "name": "whois-2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a whois client for node.js",
   "author": {
     "name": "Andreas Diem",
