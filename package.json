@@ -24,13 +24,13 @@
     "iconv-lite": "^0.4.23",
     "ip-address": "5.8.9",
     "punycode": "2.1.1",
-    "socks": "2.2.0",
+    "socks": "2.2.1",
     "tldjs": "2.3.1"
   },
   "devDependencies": {
-    "ajv": "6.5.1",
+    "ajv": "6.5.2",
     "changelog42": "0.9.0",
-    "eslint": "5.0.0",
+    "eslint": "5.1.0",
     "eslint-plugin-node": "6.0.1",
     "mocha": "5.2.0",
     "nyc": "12.0.2"
