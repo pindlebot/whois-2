@@ -1,0 +1,48 @@
+{
+  "name": "whois-2",
+  "version": "0.3.2",
+  "description": "a whois client for node.js",
+  "author": {
+    "name": "Andreas Diem",
+    "email": "develop+werist@andreas-diem.at"
+  },
+  "keywords": [
+    "whois",
+    "whois-client",
+    "whoisclient"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unshfit/whois-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:unshfit/whois-2.git"
+  },
+  "dependencies": {
+    "detect-character-encoding": "0.6.0",
+    "iconv-lite": "^0.4.23",
+    "ip-address": "5.8.9",
+    "punycode": "2.1.1",
+    "socks": "2.2.0",
+    "tldjs": "2.3.1"
+  },
+  "devDependencies": {
+    "ajv": "6.5.1",
+    "changelog42": "0.9.0",
+    "eslint": "5.0.0",
+    "eslint-plugin-node": "6.0.1",
+    "mocha": "5.2.0",
+    "nyc": "12.0.2"
+  },
+  "main": "./lib",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "npm run lint && nyc --exclude=node_modules --exclude=test --reporter=lcov --reporter=text --reporter=text-summary --reporter=json-summary _mocha ./test/*.test.js",
+    "log": "changelog42 --no-author --commit-url=https://github.com/unshfit/whois-2/commit",
+    "clean": "rm -rf node_modules/ && rm -rf coverage/ && rm -rf .nyc_output/ && rm -f npm-debug.log"
+  }
+}
