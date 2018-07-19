@@ -2,11 +2,14 @@
 
 ## Why not whois?
 
-This is a write of the fantastic module [whois](https://www.npmjs.com/package/whois) by Ridwan with the following benefits:
+This is a rewrite of the fantastic module [whois](https://www.npmjs.com/package/whois) by Ridwan. 
+
+Features:
 
 - uses plain JS instead of CoffeeScript
 - promises instead of callbacks
 - optionally return json instead of plain text
+- eliminates unnecessary dependencies (underscore.js)
 
 ```js
 
