@@ -3,16 +3,7 @@ const normalize = require('./normalize')
 const lookup = require('./lookup')
 const handleProxy = require('./handle-proxy')
 
-const defaultOptions = {
-  server: null,
-  follow: 0,
-  proxy: null,
-  verbose: false,
-  bind: null,
-  format: 'text'
-}
-
-const whois = (addr, options = defaultOptions) => {
+const whois = (addr, options) => {
   return new Promise(async (resolve, reject) => {
     let socket
     options = normalize(addr, options)

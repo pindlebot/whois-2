@@ -2,9 +2,18 @@ const net = require('net')
 const punycode = require('punycode')
 const SERVERS = require('./fixtures/servers.json')
 
+const defaultOptions = {
+  server: null,
+  follow: 0,
+  proxy: null,
+  verbose: false,
+  bind: null,
+  format: 'text'
+}
+
 module.exports = (addr, options = {}) => {
   let tld
-
+  options = { ...defaultOptions, ...options }
   let {
     follow = 2,
     timeout = 6000,
