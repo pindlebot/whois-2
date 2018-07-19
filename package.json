@@ -1,6 +1,6 @@
 {
   "name": "whois-2",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "src/index.js",
   "license": "MIT",
   "repository": {
@@ -24,6 +24,8 @@
     "test": "jest"
   },
   "standard": {
-    "env": [ "jest" ]
+    "env": [
+      "jest"
+    ]
   }
 }
