@@ -1,6 +1,10 @@
 ## whois-2
 
-## Why not whois?
+```bash
+npm i whois-2 --save
+```
+
+## Why not `whois`?
 
 This is a rewrite of the fantastic module [whois](https://www.npmjs.com/package/whois) by Ridwan. 
 
@@ -10,6 +14,15 @@ Features:
 - promises instead of callbacks
 - optionally return json instead of plain text
 - eliminates unnecessary dependencies (underscore.js)
+
+
+## Try it out
+
+Test it out [here](https://api-staging.namewhisk.com/namewhisk.com).
+
+The format is https://api-staging.namewhisk.com/{domain}
+
+## Usage
 
 ```js
 
