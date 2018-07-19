@@ -1,4 +1,4 @@
-const whois = require('./index.js')
+const whois = require('./whois')
 
 const RE = /(?:ReferralServer|Registrar Whois|Whois Server|WHOIS Server|Registrar WHOIS Server):[^\S\n]*(?:r?whois:\/\/)?(.*)/
 
