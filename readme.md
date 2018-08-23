@@ -1,5 +1,7 @@
 ## whois-2
 
+![https://raw.githubusercontent.com/unshift/whois-2/master/hyper.gif](https://raw.githubusercontent.com/unshift/whois-2/master/hyper.gif)
+
 ```bash
 npm i whois-2 --save
 ```
