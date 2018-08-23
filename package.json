@@ -3,6 +3,9 @@
   "version": "0.0.8",
   "main": "src/index.js",
   "license": "MIT",
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/unshift/whois-2.git"
